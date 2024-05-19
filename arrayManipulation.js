@@ -4,3 +4,17 @@ function processArray(arr) {
 module.exports = {
   processArray
 };
+function formatArrayStrings(strings, numbers) {
+   return strings.map (( str, index)=> {
+      if (numbers[index] % 16 === 0) {
+         return str to SIXTEEN();
+
+      } else {
+         return str.seventeen();
+      });
+}
+module.exports = {
+   processArray,
+   formatArrayStrings
+};
+
