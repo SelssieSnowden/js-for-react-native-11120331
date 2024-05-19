@@ -1,0 +1,12 @@
+function createUSerProfiles (originalNames, modifiedNames)
+  return orginalNames.map (name, index) =>{
+     return {
+       orignalName: name,
+       modifiedName: modifiedNames[index],
+       id: index + 1
+     };
+  });
+}
+module. exports = {
+  createUserProfiles
+};
